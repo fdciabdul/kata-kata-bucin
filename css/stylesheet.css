@@ -11,7 +11,7 @@ header {
 	color: #D6DBDF;
 }
 .inner {
-	max-width: 650px;
+	max-width: 400px;
 	min-width: 320px;
 	margin: 0 auto;
 }
@@ -27,8 +27,8 @@ header {
 }
 #main {
 	height: 100%;
-	min-height: 620px;
-	max-width: 1000px;
+	min-height: 400px;
+	max-width: 600;
 	margin: 0 auto;
 	position: relative;
 	background-color: #283747;
