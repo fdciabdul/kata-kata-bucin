@@ -1,0 +1,73 @@
+<!doctype html>
+<!--
+ _     _____     _______
+| |   / _ \ \   / / ____|
+| |  | | | \ \ / /|  _|
+| |__| |_| |\ V / | |___
+|_____\___/  \_/  |_____|
+-->
+<html>
+	<head>
+		<title>L.O.V.E</title>
+		<meta charset="utf-8">
+		<meta name="author" content="SFantasy">
+		<meta name="description" content="I love you, forever and ever."/>
+		<link rel="stylesheet" href="css/stylesheet.css">
+		<!-- I must put the javascript here -->
+		<script src="js/jquery.js"></script>
+		<script src="js/timer.js"></script>
+		<script src="js/functions.js"></script>
+	</head>
+	<body>
+		<div id="main">
+			<header>
+				<div class="inner">
+					Dear kamu yang aku kagumi dalam diam ,aku sudah hidup lebih dari
+					<div class="timer">
+						<span id="day"></span> Hari
+						<span id="hour"></span> Jam
+						<span id="minute"></span> Menit
+						<span id="second"></span> Tahun
+					</div> <br> selama itu aku belun pernah menemukan orang sepertimu
+				</div>
+			</header>
+			<canvas id="heart">
+				<!-- What should I draw on this canvas? -->
+			</canvas>
+			<!-- Tell you a brief story using code?! :)
+				 I have just learnt a little Common Lisp days ago.
+				 Hey! The code below may not pass the compilation...WTF
+		    -->
+			<div id="code">
+				<div class="inner">
+					<span class="comments">$ Dari aku</span><br>
+					<span class="comments">$ Pemuja rahasiamu</span><br>
+					(<span class="keywords">defvar</span> *love* null)<br>
+					<span class="comments">$ Kadang memang memendam rasa itu sakit</span><br>
+					<span class="comments">$ tapi mau bagaimana lagi...</span><br>
+					<span class="comments">$ aku cuma bisa merasakan tanpa belajar mengungkapkan</span><br>
+					(<span class="keywords">loop</span> (<span class="keywords">add-love-factor</span><br>
+					&nbsp&nbsp(<span class="keywords">if</span> (<span class="keywords">not</span> <span class="keywords">y-or-n-p</span> "apa aku pencundang[y/n]: "))<br>&nbsp&nbsp&nbsp&nbsp<span class="comments">$( return)</span><br>&nbsp&nbsp&nbsp&nbsp(<span class="keywords">push</span> factors *love*)))<br>
+					<span class="comments">$ Hesitated...</span><br>
+					<span class="comments">$ Be brave, boy~!</span><br>
+					(<span class="keywords">format t</span> "Do you love me, Ry?")<br>
+					<span class="comments">$ Yeah~!</span><br>
+					(<span class="keywords">with-you-accept</span><br>
+					&nbsp&nbsp(<span class="keywords">be-together</span> you me))<br>
+					<span class="comments">$ So the journey began...</span>
+				</div>
+			</div>
+			<audio style="display: none;" autoplay loop>
+				<source src="http://fantasyshao.qiniudn.com/yueding-eason.mp3" />
+				<source src="http://fantasyshao.qiniudn.com/turanhaoxiangni.mp3" />
+			</audio>
+			<footer>
+				 Made By 💕 <a href="https://github.com/SFantasy/Anniversary"> FDCI CYBER ART</a> |
+					Designed by <a href="https://twitter.com/forFantasy">Abdul Muttaqin</a>
+			</footer>
+		</div>
+	</body>
+	<script>
+		$('#code').typewriter();
+	</script>
+</html>
