@@ -11,7 +11,7 @@ window.onload = function() {
 
 function update_time() {
 	/* Start Time: 2011.06.19 00:00 */
-	var start_itme = 19990831;
+	var start_itme = 936139571;
 	var duration = parseInt((Date.now() / 1000 - start_itme ), 10);
 
 	var seconds = duration % 60;
